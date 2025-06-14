@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Soop 彈幕助手",
+  "version": "1.0",
+  "description": "將聊天室訊息變成彈幕，支援設定彈幕樣式與過濾。",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "啟動 Soop 彈幕"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
